@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 500;
+}
+body {
+  background: #191919;
+  padding: 50px 0;
+}
+h1{
+  font-size: 30px;
+  font-weight: 700;
+}
+h2{
+  font-weight: 700;
+  font-size: 20px;
+}
+button{
+ width: 250px;
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 1px solid #191919;
+  border-radius: 10px;
+  box-shadow: 4px 4px #191919;
+  cursor: pointer;
+}
+button:hover {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  width: calc(100vw - 100px);
+  height: 100%;
+  padding: 30px;
+  background-color: #e8e8e8;
+  margin: 0 auto;
+  border-radius: 10px;
+  max-width: 1500px;
+}
+.content{
+  display: flex;
+  gap: 3vw;
+}
+
+.players{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.player{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 250px;
+  padding: 10px 20px;
+  border: 1px solid #191919;
+  border-radius: 10px;
+  box-shadow: 4px 4px #191919;
+}
+.select{
+  background-color: green;
+}
+.player__icon{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+}
+
+.field{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.field__action{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 250px;
+  height: 150px;
+  background-color: #ccc;
+  border: 1px solid #191919;
+  border-radius: 10px;
+  box-shadow: 4px 4px #191919;
+}
+.active{
+  background-color: #2d8cf0;
+}
+.history{
+  width: 530px;
+  padding: 10px;
+  border: 1px solid #191919;
+  border-radius: 10px;
+  box-shadow: 4px 4px #191919;
+}
+.transaction{
+  display: flex;
+  gap: 20px;  
+}
+.cubik{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.cubik__result{
+  font-size: 40px;
+  font-weight: 700;
+}
